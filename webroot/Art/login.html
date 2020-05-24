@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+      <div>
+        <table class="tablestyle">
+          <form action="./php/login.php" method="POST">
+            <label  style="align: right;" for="username">Username:
+            </label>
+            <input type="text" id="username" name="username" value="">
+            <br>
+            <label style="align: right;" for="password">Password:
+            </label>
+            <input type="text" id="password" name="password" value="">
+            <button type="submit" href="./mywebsiteloggedin.html">Login
+            </button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <div class="container">
+              <button type="button" class="cancel"><a href="./mywebsite.html">Cancel
+                </a>
+              </button>
+              <span class="psw"><a href="./resetting.html">Forgot password?
+                </a>
+            </span>
+          </div>
+        </form>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    background-image: url("galaxy-background.jpg");;
+}
+
+.nonrotate{
+  transform: rotate(360deg) !important;
+  transform-origin: center !important;
+  width: 170px !important;
+}
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation .logo {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.gallery {
+  margin: 10px 50px;
+}
+
+.gallery img{
+  transition: 1s;
+  padding: 1px;
+  width: 200px;
+  transform: rotate(90deg);
+  transform-origin: center;
+}
+.gallery img:hover{
+  filter: grayscale(100%);
+  transform: scaler(1.1);
+}
+
+
+h2{
+  color: pink;
+  font-family: Arial;
+  font-size: 20;
+}
+
+.caption{
+font-size: 12px;
+text-align: center;
+font-family: monospace;
+font-weight: bold;
+color: #fc0394;
+border: black bold 1px;
+}
